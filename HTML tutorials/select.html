@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="/server" >
+        <label for = "pet select">choose a pet:</label>
+        <select name = "pets" id = "pet select">
+            <option value="">--Please choose an option--</option>
+  <option value="dog">Dog</option>
+  <option value="cat">Cat</option>
+  <option value="hamster">Hamster</option>
+  <option value="parrot">Parrot</option>
+  <option value="spider">Spider</option>
+  <option value="goldfish">Goldfish</option>
+</select>
+<p>Audio settings:</p>
+
+<div>
+  <input type="range" id="volume" name="volume" min="0" max="11" />
+  <label for="volume">Volume</label>
+</div>
+
+<div>
+  <input
+    type="range"
+    id="cowbell"
+    name="cowbell"
+    min="0"
+    max="100"
+    value="90"
+    step="10" />
+  <label for="cowbell">Cowbell</label>
+</div>
+<label for ="feedback" > please give your valuable feedback</label>
+<textarea id ="feed back">  </textarea>
+            
+
+    </form>
+</forms>
+</body>
+</html>

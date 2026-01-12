@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Example</title>
+</head>
+<body>
+
+<form action="/server">
+
+    <!-- Checkbox -->
+    <div>
+        <input type="checkbox" name="age" id="age">
+        <label for="age">I am 18+</label>
+    </div>
+
+    <!-- Radio buttons grouped properly -->
+    <fieldset>
+        <legend>Select a fruit:</legend>
+
+        <div>
+            <input type="radio" id="apple" name="fruit" value="apple">
+            <label for="apple">Apple</label>
+        </div>
+
+        <div>
+            <input type="radio" id="banana" name="fruit" value="banana">
+            <label for="banana">Banana</label>
+        </div>
+
+        <div>
+            <input type="radio" id="orange" name="fruit" value="orange">
+            <label for="orange">Orange</label>
+        </div>
+
+    </fieldset>
+
+    <!-- Submit button -->
+    <button type="submit">Submit</button>
+
+</form>
+
+</body>
+</html>
